@@ -1,36 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8a5b940-13ba-49e1-aaea-dc5e6eb9d2b4" name="Default Changelist" comment="first try">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/network-embedding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/network-embedding.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/300point.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/300point.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/Wiki_edgelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/Wiki_edgelist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/clus.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/clus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/comm3.adjlist" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/comm3.adjlist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/cora.matrix" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/cora.matrix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/cora2.matrix" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/cora2.matrix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/cora_edgelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/cora_edgelist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/deepwalk_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/deepwalk_label.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/email.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/email.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/karate-vector.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/karate-vector.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/label.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/label.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/n2v_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/n2v_label.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/own2_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/own2_label.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/own3_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/own3_label.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/own4_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/own4_label.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/own6_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/own6_label.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/own_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/own_label.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/p2p-label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/p2p-label.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/p2p-label.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/p2p-label.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/p2p-vector.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/p2p-vector.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/karate_own.emb" beforeDir="false" afterPath="$PROJECT_DIR$/main/karate_own.emb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/matrix1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/matrix1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/matrix2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/matrix2.py" afterDir="false" />
+    <list default="true" id="d8a5b940-13ba-49e1-aaea-dc5e6eb9d2b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/draw_compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/matrix1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/matrix2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/karate.adjlist" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/karate.adjlist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,31 +18,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/network_embedding$matrix2.coverage" NAME="matrix2 Coverage Results" MODIFIED="1550652612902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/network_embedding$four_votes.coverage" NAME="four votes Coverage Results" MODIFIED="1544163665654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/板栗的坚果/我的坚果云/项目-智能楼宇/12.5模糊评价" />
+    <SUITE FILE_PATH="coverage/network_embedding$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1545219771613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/network_embedding$gaussian.coverage" NAME="gaussian Coverage Results" MODIFIED="1551336462547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/network_embedding$testdraw.coverage" NAME="testdraw Coverage Results" MODIFIED="1543396786011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/板栗的坚果/我的坚果云/who's fault" />
     <SUITE FILE_PATH="coverage/network_embedding$matrix1.coverage" NAME="matrix1 Coverage Results" MODIFIED="1543827799593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/network_embedding$Laplacian.coverage" NAME="Laplacian Coverage Results" MODIFIED="1540292431653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Embedding/venv" />
-    <SUITE FILE_PATH="coverage/network_embedding$gaussian.coverage" NAME="gaussian Coverage Results" MODIFIED="1551761085652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
-    <SUITE FILE_PATH="coverage/network_embedding$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1545219771613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/network_embedding$matrix2.coverage" NAME="matrix2 Coverage Results" MODIFIED="1553822797751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/network_embedding$testdraw.coverage" NAME="testdraw Coverage Results" MODIFIED="1543396786011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/板栗的坚果/我的坚果云/who's fault" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/matrix2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="5035">
+              <caret line="271" column="45" selection-start-line="271" selection-start-column="45" selection-end-line="271" selection-end-column="45" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/karate.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -94,18 +64,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dataset/karate-3d.txt" />
+        <option value="G:/Embedding/venv/Laplacian.py" />
+        <option value="$PROJECT_DIR$/dataset/simple2.adjlist" />
+        <option value="$PROJECT_DIR$/dataset/simple.adjlist" />
+        <option value="$PROJECT_DIR$/main/draw_compare.py" />
+        <option value="$PROJECT_DIR$/dataset/comm3.adjlist" />
+        <option value="G:/板栗的坚果/我的坚果云/who's fault/new model fw(1).py" />
+        <option value="G:/板栗的坚果/我的坚果云/who's fault/4号画图.csv" />
+        <option value="G:/板栗的坚果/我的坚果云/who's fault/testdraw.py" />
+        <option value="$PROJECT_DIR$/dataset/150points.adjlist" />
+        <option value="$PROJECT_DIR$/dataset/simple3.adjlist" />
+        <option value="G:/板栗的坚果/我的坚果云/项目-智能楼宇/12.5模糊评价/four votes.py" />
+        <option value="$PROJECT_DIR$/dataset/300points.adjlist" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scipy/optimize/tnc.py" />
+        <option value="$PROJECT_DIR$/dataset/wiki.adjlist" />
+        <option value="$PROJECT_DIR$/dataset/cora.adjlist" />
+        <option value="D:/embedding论文/实验数据/eval.py" />
+        <option value="$PROJECT_DIR$/main/test1.py" />
+        <option value="$PROJECT_DIR$/dataset/facebook.adjlist" />
+        <option value="$PROJECT_DIR$/main/matrix1.py" />
         <option value="$PROJECT_DIR$/main/matrix2.py" />
+        <option value="$USER_HOME$/Desktop/gaussian.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="799" />
+    <option name="y" value="166" />
+    <option name="width" value="975" />
+    <option name="height" value="1047" />
   </component>
-  <component name="ProjectId" id="1QGaXLJZWG5d6NPdVbNuX7JVLDv" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -124,11 +112,6 @@
             <path>
               <item name="network-embedding" type="b2602c69:ProjectViewProjectNode" />
               <item name="network-embedding" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="network-embedding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network-embedding" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -140,20 +123,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/gaussian.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\我的坚果云\network-embedding\dataset" />
       <recent name="G:\我的坚果云\network-embedding\dataset" />
       <recent name="G:\network-embedding\dataset" />
     </key>
@@ -170,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.matrix2">
+  <component name="RunManager" selected="Python.gaussian">
     <configuration name="four votes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="network-embedding" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,16 +258,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.four votes" />
-      <item itemvalue="Python.gaussian" />
+      <item itemvalue="Python.test1" />
       <item itemvalue="Python.matrix1" />
       <item itemvalue="Python.matrix2" />
-      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.four votes" />
+      <item itemvalue="Python.gaussian" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.matrix2" />
         <item itemvalue="Python.gaussian" />
+        <item itemvalue="Python.matrix2" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.four votes" />
         <item itemvalue="Python.matrix1" />
@@ -321,22 +297,7 @@
       <workItem from="1547110035866" duration="1671000" />
       <workItem from="1550652344479" duration="863000" />
       <workItem from="1551336107886" duration="814000" />
-      <workItem from="1551761082398" duration="71000" />
-      <workItem from="1551933694644" duration="1194000" />
-      <workItem from="1552009677500" duration="637000" />
-      <workItem from="1553562525913" duration="596000" />
-      <workItem from="1553585132581" duration="609000" />
-      <workItem from="1553675081983" duration="6192000" />
-      <workItem from="1555380106557" duration="599000" />
-      <workItem from="1556090817993" duration="59000" />
-      <workItem from="1556094624437" duration="78000" />
-      <workItem from="1556162869409" duration="18000" />
-      <workItem from="1560432894556" duration="1728000" />
-      <workItem from="1560605030598" duration="69000" />
-      <workItem from="1567399426327" duration="488000" />
-      <workItem from="1567415063765" duration="901000" />
-      <workItem from="1567425592488" duration="595000" />
-      <workItem from="1567685538544" duration="7420000" />
+      <workItem from="1551509237024" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="first try">
       <created>1540112080371</created>
@@ -349,7 +310,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7420000" />
+    <option name="totallyTimeSpent" value="77809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,30 +322,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13171081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" weight="0.4857768" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" auto_hide="true" x="-7" y="26" width="1920" height="1040" id="SciView" show_stripe_button="false" type="FLOATING" weight="0.32995737" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010737" side_tool="true" weight="0.39726028" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.3275218" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" id="SciView" order="3" show_stripe_button="false" sideWeight="0.49838188" type="FLOATING" weight="0.44402984" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.50161815" side_tool="true" weight="0.36034116" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,114 +356,150 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first try" />
     <option name="LAST_COMMIT_MESSAGE" value="first try" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/matrix2.py</url>
-          <line>281</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/matrix2.py</url>
-          <line>283</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/matrix2.py</url>
-          <line>287</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/matrix2.py</url>
-          <line>296</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/matrix2.py</url>
-          <line>273</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/matrix2.py</url>
-          <line>269</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/matrix2.py</url>
-          <line>197</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/matrix2.py</url>
-          <line>198</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/matrix2.py</url>
-          <line>199</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/network_embedding$matrix2.coverage" NAME="matrix2 Coverage Results" MODIFIED="1567761158972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main/draw_compare.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/label.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/karate_n2v.emb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/karate_own.emb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/lqr1996_/Files/new model fw(1).py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/metrics/regression.py" />
+    <entry file="file://G:/板栗的坚果/我的坚果云/who's fault/4号画图.csv" />
+    <entry file="file://G:/板栗的坚果/我的坚果云/who's fault/new model fw(1).py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/matplotlib/axes/_base.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/seaborn/distributions.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/matplotlib/axes/_axes.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/matplotlib/pyplot.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/matplotlib/legend.py" />
+    <entry file="file://G:/板栗的坚果/我的坚果云/who's fault/testdraw.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/900points.adjlist" />
+    <entry file="file://$USER_HOME$/Desktop/行为复现/commtest.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/comm3.adjlist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/karate_deepwalk.emb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/manifold/t_sne.py" />
     <entry file="file://$PROJECT_DIR$/dataset/karate.adjlist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/150points.adjlist" />
+    <entry file="file://$PROJECT_DIR$/dataset/simple.adjlist" />
+    <entry file="file://$PROJECT_DIR$/dataset/simple2.adjlist" />
+    <entry file="file://$PROJECT_DIR$/dataset/simple3.adjlist" />
+    <entry file="file://G:/Embedding/venv/Lib/site-packages/Cython/Compiler/Symtab.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/xlrd/sheet.py" />
+    <entry file="file://G:/板栗的坚果/我的坚果云/项目-智能楼宇/12.5模糊评价/four votes.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/xlrd/xldate.py" />
+    <entry file="file://G:/Embedding/venv/Lib/site-packages/networkx/drawing/nx_pylab.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/mixture/gaussian_mixture.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/email.adjlist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/email-Eu-core-department-labels.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="491" column="5" lean-forward="true" selection-start-line="491" selection-start-column="5" selection-end-line="491" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/300point.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/karate.txt">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scipy/optimize/tnc.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/sklearn/metrics/cluster/supervised.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/wiki.adjlist" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/sklearn/manifold/t_sne.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/facebook_combined.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1587396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/facebook.adjlist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="4038" column="4" selection-start-line="4038" selection-start-column="4" selection-end-line="4038" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/embedding论文/实验数据/facebook/own7_facebook.emb" />
+    <entry file="file://$PROJECT_DIR$/main/matrix1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="24" selection-start-line="24" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/python_louvain-0.4-py3.6.egg!/community/community_louvain.py" />
+    <entry file="file://D:/embedding论文/实验数据/eval.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/cora_labels.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/karate-3d.txt">
+    <entry file="file://$PROJECT_DIR$/main/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/300points.adjlist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="299" column="3" selection-start-line="299" selection-start-column="3" selection-end-line="299" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/cora2.matrix">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="396">
+          <caret line="22" column="167" selection-start-line="22" selection-start-column="167" selection-end-line="22" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/cora.matrix">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/cora.adjlist">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/gaussian.py" />
     <entry file="file://$PROJECT_DIR$/main/matrix2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="5035">
+          <caret line="271" column="45" selection-start-line="271" selection-start-column="45" selection-end-line="271" selection-end-column="45" />
         </state>
       </provider>
     </entry>

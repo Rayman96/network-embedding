@@ -4,6 +4,7 @@ from numpy import *
 from sklearn import preprocessing
 from sklearn.manifold import TSNE
 import random
+import pandas as pd
 import operator
 # import community
 # set_printoptions(threshold=NaN)
@@ -105,7 +106,7 @@ def draw(Y):
     for i in range(Y.shape[0]):
         x.append(Y[i, 0])
         y.append(Y[i, 1])
-        # z.append((Y[i,2]))
+        z.append((Y[i,2]))
     return (x, y, z)
 
 
@@ -123,11 +124,11 @@ def GF(p, r, e, z):
     # print('z_new',z_new)
     t = 1  # 循环次数
     res = 10000  # 新旧误差
-    u = 0.11  # 调参量
+    u = 0.011  # 调参量
     while (res > e):
         print('times', t)
-        # miu = 1/(1000*t**(0.5))
-        miu = 0.0001
+        miu = 1/(1000*t**(0.5))
+        # miu = 0.001
         t = t + 1
         z_temp = copy(z_old)
         # print('oriz_temp',z_temp)
@@ -135,7 +136,7 @@ def GF(p, r, e, z):
             if res <= e:
                 break
             # print('i',i)
-            if i == 0:
+            if i == -1:
                 continue
             else:
                 for j in range(i):
@@ -192,27 +193,32 @@ def savematrix(p):
     f.close()
     return ()
 
+def karate_label():
+    data = pd.read_table('../dataset/karate-3d.txt', sep = ' ', header = None, names=['node','f1','f2','f3'])
+    data = data.sort_values('node')
+    data = array(data[['f1','f2','f3']])
+    return data
 
 def main():
-    filename = 'dataset/cora.adjlist'
-    G = nx.read_adjlist(filename)
-    node_label = get_label('dataset/cora_labels.txt')
-    color_label = []
-    for item in node_label:
-        if item == 0 or item == '0':
-            color_label.append('red')
-        elif item == 1 or item == '1':
-            color_label.append('green')
-        elif item == 2 or item == '2':
-            color_label.append('yellow')
-        elif item == 3 or item == '3':
-            color_label.append('blue')
-        elif item == 4 or item == '4':
-            color_label.append('brown')
-        elif item == 5 or item == '5':
-            color_label.append('black')
-        elif item == 6 or item == '6':
-            color_label.append('pink')
+    filename = '../dataset/karate.adjlist'
+    # G = nx.read_adjlist(filename)
+    # node_label = get_label('dataset/wiki_labels.csv')
+    # color_label = []
+    # for item in node_label:
+    #     if item == 0 or item == '0':
+    #         color_label.append('red')
+    #     elif item == 1 or item == '1':
+    #         color_label.append('green')
+    #     elif item == 2 or item == '2':
+    #         color_label.append('yellow')
+    #     elif item == 3 or item == '3':
+    #         color_label.append('blue')
+    #     elif item == 4 or item == '4':
+    #         color_label.append('brown')
+    #     elif item == 5 or item == '5':
+    #         color_label.append('black')
+    #     elif item == 6 or item == '6':
+    #         color_label.append('pink')
     # label = loadtxt('../dataset/300points.txt',dtype = int)
     # label = label[:,1]
     # nx.draw(G,node_color = label)
@@ -256,28 +262,29 @@ def main():
     # print('W')
 
     # 构建自己的权重矩阵 W
-    T = 1
-    r = 16
-    z_old = mat(ones((len(p), r)))
-    # z_old=[[random.randint(-1, 1) for i in range(r)]for i in range(len(p))]
-    # z_old = mat(z_old)
+    T = 1    # 走的轮数
+    r = 3    # embedding的维度
+    # z_old = mat(ones((len(p), r)))
+    # z_old=[[random.randint(1, 100)/100 for i in range(r)]for i in range(len(p))]
+    z_old = karate_label()
+    z_old = mat(z_old)
     print(z_old)
     # z_old = mat(z_old)
     # print('first z',z_old)
     print('walking')
     for t in range(T):
-        s = 1
+        s = 10
         # for s in range(1,len(dic)+1):
-        path = random_walk(dic, start=s, l=len(p) * 10)
+        path = random_walk(dic, start=s, l=len(p) **2)
         # print('start = %d'%s)
         print('walking is over')
         # print('path',path)
-        trunklist = trunked(path, dic, p, k=8)
+        trunklist = trunked(path, dic, p, k=10)
         # print('trunked list',trunklist)
         p = findedge(dic, trunklist, p)
         # print("the %s node is over" %s)
     print('done walking!')
-    # print('matirx p\n',mat(p))#!!!!!!!!!!!!!!!!!!!
+    print('matirx p\n',mat(p))#!!!!!!!!!!!!!!!!!!!
     p = regulize_f(p, 'minmax')
     print('rugulized p', p)
     # D = degree(p)
@@ -287,7 +294,7 @@ def main():
     Random Walk完成，矩阵W构造完成
     """
 
-    # node_label = ['red','red','red','red','red','red','red','red','red','blue','red','red','red','red','blue','blue','red','red','blue','red','blue','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue']
+    node_label = ['red','red','red','red','red','red','red','red','red','blue','red','red','red','red','blue','blue','red','red','blue','red','blue','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue']
     # node_label = ['red','red','red','red','blue','blue','blue','blue']
     # node_label = ['red','blue','red','red','blue','blue','red','blue']
     # node_label = ['yellow','red','red','red','blue','blue','blue']
@@ -312,28 +319,32 @@ def main():
     # Y = regulize_f(Y,'minmax')
     # print('Y',Y)
     # z_old = GF(array(W), r, 0.5, z_old)
-    gap = [1000, 100, 10, 1, 0.1]
+    gap = [1e-2,1e-7]
     for item in gap:
-        z_now = z_old
+        # z_now = z_old
         z_now = GF(p, r, item, z_old)
         # print('matrix z',z_old)
         print('get z')
-        Uk_tsne = TSNE(n_components=2).fit_transform(z_now)
-        z_now = Uk_tsne
+        # Uk_tsne = TSNE(n_components=2).fit_transform(z_now)
+        # z_now = Uk_tsne
         x, y, z = draw(z_now)
+        print('x',x)
+        print('y',y)
         # savetxt('../dataset/300point.txt',z_old)
         """
         画图展示
         # """
-        plt.scatter(x, y, color=color_label)
+        # plt.scatter(x,y)
+        # plt.show()
+        # plt.scatter(x, y, color=node_label)
         # for i in range(len(x)):
         #     plt.text(x[i],y[i],i+1)
-        # # ax = plt.figure().add_subplot(111,projection = '3d')
-        # # ax.scatter(x,y,z,color = node_label)
-        # # plt.title('ours')
-        # plt.show()
-        plt.savefig('gap = %s.png' % item)
-        plt.clf()
+        ax = plt.figure().add_subplot(111,projection = '3d')
+        ax.scatter(x,y,z,color = node_label)
+        plt.title('ours')
+        plt.show()
+        # plt.savefig('./core_gap = %s.png' % item)
+
 
     # kmeans = KMeans(n_clusters=3, random_state=0).fit(z_old)  # Y的行向量用来聚类
     # print(kmeans.labels_)
