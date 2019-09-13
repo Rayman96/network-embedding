@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a5b940-13ba-49e1-aaea-dc5e6eb9d2b4" name="Default Changelist" comment="first try">
+      <change afterPath="$PROJECT_DIR$/main/sample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/network-embedding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/network-embedding.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/300point.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/300point.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/Wiki_edgelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/Wiki_edgelist.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/clus.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/clus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/comm3.adjlist" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/comm3.adjlist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/cora.matrix" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/cora.matrix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/cora2.matrix" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/cora2.matrix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/cora_edgelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/cora_edgelist.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/deepwalk_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/deepwalk_label.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/email.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/email.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/karate-3d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/karate-3d.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/karate-vector.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/karate-vector.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/karate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/karate.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/label.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/label.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/n2v_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/n2v_label.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/own2_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/own2_label.csv" afterDir="false" />
@@ -48,27 +50,6 @@
     <SUITE FILE_PATH="coverage/network_embedding$matrix2.coverage" NAME="matrix2 Coverage Results" MODIFIED="1553822797751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/network_embedding$testdraw.coverage" NAME="testdraw Coverage Results" MODIFIED="1543396786011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/板栗的坚果/我的坚果云/who's fault" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/matrix2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/karate.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -91,52 +72,15 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/dataset/karate-3d.txt" />
-        <option value="$PROJECT_DIR$/main/matrix2.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1714" />
+    <option name="y" value="-20" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1QGaXLJZWG5d6NPdVbNuX7JVLDv" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="network-embedding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network-embedding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="network-embedding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network-embedding" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="network-embedding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network-embedding" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -170,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.matrix2">
+  <component name="RunManager" selected="Python.sample">
     <configuration name="four votes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="network-embedding" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,28 +159,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="matrix1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="network-embedding" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/matrix1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="matrix2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="network-embedding" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,6 +173,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/matrix2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="network-embedding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,17 +228,17 @@
     <list>
       <item itemvalue="Python.four votes" />
       <item itemvalue="Python.gaussian" />
-      <item itemvalue="Python.matrix1" />
       <item itemvalue="Python.matrix2" />
       <item itemvalue="Python.test1" />
+      <item itemvalue="Python.sample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sample" />
         <item itemvalue="Python.matrix2" />
         <item itemvalue="Python.gaussian" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.four votes" />
-        <item itemvalue="Python.matrix1" />
       </list>
     </recent_temporary>
   </component>
@@ -337,6 +281,7 @@
       <workItem from="1567415063765" duration="901000" />
       <workItem from="1567425592488" duration="595000" />
       <workItem from="1567685538544" duration="7420000" />
+      <workItem from="1567941577260" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="first try">
       <created>1540112080371</created>
@@ -348,9 +293,6 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7420000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -359,33 +301,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" auto_hide="true" x="-7" y="26" width="1920" height="1040" id="SciView" show_stripe_button="false" type="FLOATING" weight="0.32995737" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -399,12 +314,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -482,28 +391,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/network_embedding$sample.coverage" NAME="sample Coverage Results" MODIFIED="1568286073303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/network_embedding$matrix2.coverage" NAME="matrix2 Coverage Results" MODIFIED="1567761158972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataset/karate.adjlist">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/karate.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/karate-3d.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/matrix2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
